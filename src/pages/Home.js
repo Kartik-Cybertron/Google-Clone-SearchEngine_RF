@@ -14,8 +14,10 @@ function Home() {
           <Link to="/store">Store</Link>
         </div>
         <div className="home_headerRight">
-          <Link to="/gmail">Gmail</Link>
-          <Link to="/images">Images</Link>
+          <a href="https://www.google.com/gmail">Gmail</a>
+          {/* <Link to="gmail.com">Gmail</Link> */}
+          <a href="https://www.google.com/imghp?hl=EN">Images</a>
+          {/* <Link to="/images">Images</Link> */}
           <AppsIcon />
           <Avatar />
         </div>
@@ -23,7 +25,7 @@ function Home() {
       <div className="home_body">
         <img src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png" />
         <div className="home_Inputcontainer">
-          <Search hideButtons />
+          <Search />
         </div>
       </div>
     </div>
